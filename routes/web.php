@@ -28,6 +28,11 @@ use App\Http\Controllers\Admin\TransactionController;
 |
 */
 
+// Route::get('/', function () {
+//     return view('frontend.index');
+// });
+
+//login page
 Route::get('/', function () {
     return view('auth.login');
 });
